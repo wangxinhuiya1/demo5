@@ -28,5 +28,9 @@ export default defineConfig({
         additionalData:'@import "./src/assets/style/main.scss";'
       }
     }
+  },
+  base:"/demo5/",
+  build:{
+    outDir:"docs"
   }
 })
